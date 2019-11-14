@@ -1,6 +1,6 @@
-# LLFI Crash Rate Estimator
+# LLFI-CrashRateEstimator
 
-LLFI Crash Rate Estimator is a framework for generating a estimate of a program's crash probability that matches more closely to that as measured using assembly-level fault injection (i.e., [PINFI](https://github.com/DependableSystemsLab/PINFI)). This machine learning-based technique uses the crash probability as measured using [LLFI](https://github.com/DependableSystemsLab/LLFI) along with the program's percentage of instructions that operate on memory address values as inputs to calculate the estimation.
+LLFI-CrashRateEstimator is a framework for generating a estimate of a program's crash probability that matches more closely to that as measured using assembly-level fault injection (i.e., [PINFI](https://github.com/DependableSystemsLab/PINFI)). This machine learning-based technique uses the crash probability as measured using [LLFI](https://github.com/DependableSystemsLab/LLFI) along with the program's percentage of instructions that operate on memory address values as inputs to calculate the estimation.
 
 ## Overview
 
