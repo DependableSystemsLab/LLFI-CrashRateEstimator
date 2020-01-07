@@ -4,7 +4,7 @@ LLFI-CrashRateEstimator is a framework for generating a estimate of a program's 
 
 ## Overview
 
-Research has shows that [IR-level fault injection](https://github.com/DependableSystemsLab/LLFI) is as accurate as [assembly-level tools](https://github.com/DependableSystemsLab/PINFI) for measuring errors that result in silent data corruptions (SDCs) \[[1](https://doi.org/10.1109/DSN.2014.2), [2](http://blogs.ubc.ca/karthik/files/2019/08/issre19-paper.pdf)\]. However, measuring a program's crash probability using IR-level FI still proves to be inaccurate when compared with assembly-level FI \[[2](http://blogs.ubc.ca/karthik/files/2019/08/issre19-paper.pdf)\]. This tool uses machine learning to provide more accurate measurements of a program's crash probability.
+Research has shown that [IR-level fault injection](https://github.com/DependableSystemsLab/LLFI) is as accurate as [assembly-level tools](https://github.com/DependableSystemsLab/PINFI) for measuring errors that result in silent data corruptions (SDCs) \[[1](https://doi.org/10.1109/DSN.2014.2), [2](http://blogs.ubc.ca/karthik/files/2019/08/issre19-paper.pdf)\]. However, measuring a program's crash probability using IR-level FI still proves to be inaccurate when compared with assembly-level FI \[[2](http://blogs.ubc.ca/karthik/files/2019/08/issre19-paper.pdf)\]. This tool uses machine learning to provide more accurate measurements of a program's crash probability.
 
 For a detailed description of the technique, refer to [Chapters 6-7 here](http://hdl.handle.net/2429/71948).
 
